@@ -129,7 +129,7 @@ def load_on_reg(dbstate, uistate, plugin):
         # WebKit/ Html5/ CSS3 Animated Drop Down Style Sheet
         ["Animated DropDown", 0, "Animated DropDown",
          path_css("Web_Citations-Animated.css"), None, [],
-         https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js ],
+         "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" ],
 
         # Source Page Citations Referents Outline Style sheet...
         ["Outline", 0, "Outline Citations",
