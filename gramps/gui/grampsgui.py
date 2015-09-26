@@ -178,7 +178,7 @@ class Gramps(object):
         theme = Gtk.IconTheme.get_default()
         theme.append_search_path(IMAGE_DIR)
 
-        if lin() and glocale.lang != 'C' and not gettext.find(GTK_GETTEXT_DOMAIN):
+        if lin() and glocale.lang != 'C' and glocale.lang != 'en_US.UTF-8' and not gettext.find(GTK_GETTEXT_DOMAIN):
             LOG.warn("GTK translations missing, GUI will be broken, especially for RTL languages!")
             # Note: the warning dialog below will likely have wrong stock icons!
             # Translators: the current language will be the one you translate into.
